@@ -97,8 +97,8 @@ You are welcome to contribute code, content or documentation to
 
 There are three important things to know:
 
-1. You must be aware of the Creative Commons Attribution-ShareAlike
-   4.0 International License and **agree to the Contributors License
+1. You must be aware of the Eclipse Public License 2.0 (which
+   describes contributions) and **agree to the Contributors License
    Agreement**. This is common practice in all major Open Source
    projects.
 2. **Not all proposed contributions can be accepted**. Some features
@@ -112,9 +112,8 @@ There are three important things to know:
 ### Contributor License Agreement
 
 When you contribute (code, documentation, or anything else), you have
-to be aware that your contribution is covered by the same [Creative
-Commons Attribution-ShareAlike 4.0 International
-License](https://creativecommons.org/licenses/by-sa/4.0/) that is
+to be aware that your contribution is covered by the same [Eclipse
+Public License 2.0](https://opensource.org/licenses/EPL-2.0) that is
 applied to %PROJECT% itself.
 
 In particular you need to agree to the Contributor License Agreement,

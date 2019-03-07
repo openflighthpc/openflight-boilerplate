@@ -1,0 +1,28 @@
+#==============================================================================
+# Copyright (C) 2019-present Alces Flight Ltd.
+#
+# This file is part of %PROJECT%.
+#
+# This content and the accompanying materials are made available
+# available under the terms of the Creative Commons
+# Attribution-ShareAlike 4.0 International License which is available
+# at <https://creativecommons.org/licenses/by-sa/4.0/> or alternative
+# license terms made available by Alces Flight Ltd - please direct
+# inquiries about licensing to licensting@alces-flight.com.
+#
+# %PROJECT% is distributed in the hope that it will be useful, but
+# WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, EITHER EXPRESS OR
+# IMPLIED INCLUDING, WITHOUT LIMITATION, ANY WARRANTIES OR CONDITIONS
+# OF TITLE, NON-INFRINGEMENT, MERCHANTABILITY OR FITNESS FOR A
+# PARTICULAR PURPOSE. See the Creative Commons Attribution-ShareAlike
+# 4.0 International License for more details.
+#
+# You should have received a copy of the Creative Commons
+# Attribution-ShareAlike 4.0 International License along with
+# %PROJECT%. If not, see:
+#
+#  https://creativecommons.org/licenses/by-sa/4.0/
+#
+# For more information on %PROJECT%, please visit:
+# https://github.com/openflighthpc/%GITHUB-PROJECT%
+#===============================================================================
