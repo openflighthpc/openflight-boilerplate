@@ -7,7 +7,7 @@ document to understand what you can do:
 
  * [Code of Conduct](#code-of-conduct)
  * [Help Others](#help-others)
- * [Analyze Issues](#analyze-issues)
+ * [Analyse Issues](#analyse-issues)
  * [Report an Issue](#report-an-issue)
  * [Contribute Changes](#contribute-changes)
 
@@ -23,15 +23,15 @@ follow it in all your interactions with the project.
 This project and everyone participating in it is governed by the
 [OpenFlight Code of Conduct](CODE_OF_CONDUCT.md). By participating,
 you are expected to uphold this code. Please report unacceptable
-behavior to [help@openflighthpc.org](mailto:help@openflighthpc.org).
+behaviour to [help@openflighthpc.org](mailto:help@openflighthpc.org).
 
 ## Help Others
 
 You can help %PROJECT% by helping others who use it and need support.
 
-## Analyze Issues
+## Analyse Issues
 
-Analyzing issue reports can be a lot of effort. Any help is welcome!
+Analysing issue reports can be a lot of effort. Any help is welcome!
 Go to [the GitHub issue tracker](https://github.com/openflighthpc/%GITHUB-PROJECT%/issues?state=open)
 and find an open issue which needs additional work or a bugfix
 (e.g. issues labeled with "help wanted" or "bug").
@@ -42,12 +42,12 @@ even find and [contribute](#contribute-changes) a bugfix?
 
 ## Report an Issue
 
-If you find a bug - behavior of %PROJECT% code or documentation
+If you find a bug - behaviour of %PROJECT% code or documentation
 contradicting your expectation - you are welcome to report it. We can
 only handle well-reported, actual bugs, so please follow the
 guidelines below.
 
-Once you have familiarized with the guidelines, you can go to the
+Once you have familiarised with the guidelines, you can go to the
 [GitHub issue tracker for %PROJECT%](https://github.com/openflighthpc/%GITHUB-PROJECT%/issues/new)
 to report the issue.
 
@@ -82,7 +82,7 @@ before it can be exploited.  Please send the related information to
 We want to improve the quality of %PROJECT% and good bug reports are
 welcome! However, our capacity is limited, thus we reserve the right
 to close or to not process bug reports with insufficient detail in
-favor of those which are very cleanly documented and easy to
+favour of those which are very cleanly documented and easy to
 reproduce. Even though we would like to solve each well-documented
 issue, there is always the chance that it will not happen - remember:
 %PROJECT% is Open Source and comes without warranty.
