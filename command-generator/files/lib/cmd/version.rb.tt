@@ -1,0 +1,4 @@
+<%= boilerplate %>
+module <%= name.capitalize %>
+  VERSION = '0.1.0'
+end

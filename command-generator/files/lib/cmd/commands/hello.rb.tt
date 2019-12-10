@@ -1,0 +1,12 @@
+<%= boilerplate %>
+require_relative '../command'
+
+module <%= name.capitalize %>
+  module Commands
+    class Hello < Command
+      def run
+        puts "Hello, <%= name %>"
+      end
+    end
+  end
+end

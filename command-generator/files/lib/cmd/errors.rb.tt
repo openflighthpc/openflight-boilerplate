@@ -1,0 +1,4 @@
+<%= boilerplate %>
+module <%= name.capitalize %>
+  <%= name.capitalize %>Error = Class.new(RuntimeError)
+end

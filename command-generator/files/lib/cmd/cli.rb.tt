@@ -1,0 +1,55 @@
+<%= boilerplate %>
+require_relative 'commands'
+require_relative 'version'
+
+require 'tty/reader'
+require 'commander'
+
+module <%= name.capitalize %>
+  module CLI
+    PROGRAM_NAME = ENV.fetch('FLIGHT_PROGRAM_NAME','<%= name %>')
+
+    extend Commander::Delegates
+    program :application, "<%= project %>"
+    program :name, PROGRAM_NAME
+    program :version, "Release <%= Time.now.strftime('%Y') %>.1 (v#{<%= name.capitalize %>::VERSION})"
+    program :description, '%DESCRIPTION%'
+    program :help_paging, false
+    default_command :help
+    silent_trace!
+
+    error_handler do |runner, e|
+      case e
+      when TTY::Reader::InputInterrupt
+        $stderr.puts "\n#{Paint['WARNING', :underline, :yellow]}: Cancelled by user"
+        exit(130)
+      else
+        Commander::Runner::DEFAULT_ERROR_HANDLER.call(runner, e)
+      end
+    end
+
+    if ENV['TERM'] !~ /^xterm/ && ENV['TERM'] !~ /rxvt/
+      Paint.mode = 0
+    end
+
+    class << self
+      def cli_syntax(command, args_str = nil)
+        command.syntax = [
+          PROGRAM_NAME,
+          command.name,
+          args_str
+        ].compact.join(' ')
+      end
+    end
+
+    command :hello do |c|
+      cli_syntax(c)
+      c.summary = 'Say hello'
+      c.action Commands, :hello
+      c.description = <<EOF
+Say hello.
+EOF
+    end
+    alias_command :h, :hello
+  end
+end
