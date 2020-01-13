@@ -29,7 +29,7 @@ Read [CONTRIBUTING.md](CONTRIBUTING.md) for more details.
 
 Creative Commons Attribution-ShareAlike 4.0 License, see [LICENSE.txt](LICENSE.txt) for details.
 
-Copyright (C) 2019-present Alces Flight Ltd.
+Copyright (C) 2020-present Alces Flight Ltd.
 
 You should have received a copy of the license along with this work.
 If not, see <http://creativecommons.org/licenses/by-sa/4.0/>.
